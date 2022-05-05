@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favouriteNews"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_star"
+        android:title="Избранные">
+    </item>
+    <item
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/ic_menu"
+        app:iconTint="@android:color/white">
+        <menu>
+            <item
+                android:id="@+id/directAuthorsMenuItem"
+                app:showAsAction="withText"
+                android:icon="@drawable/ic_msg"
+                android:title="Написать нам">
+            </item>
+            <item
+                android:id="@+id/shareMenuItem"
+                app:showAsAction="withText"
+                android:icon="@drawable/ic_icon_share"
+                android:title="Поделиться приложением">
+            </item>
+            <item
+                android:id="@+id/helpMenuItem"
+                app:showAsAction="withText"
+                android:icon="@drawable/ic_info"
+                android:title="О приложении">
+            </item>
+
+        </menu>
+    </item>
+
+
+</menu>

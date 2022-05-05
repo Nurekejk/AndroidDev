@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/newsDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/newsDetailToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/AppTheme"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:titleMarginStart="20dp"
+        app:navigationIcon="@drawable/ic_arrow_back">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Подробности"
+            style="@style/newsDetailToolbarTitle">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/detailsImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                tools:src="@color/colorBlack">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detailsTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Title"
+                    style="@style/newsDetailTitle">
+                </TextView>
+                <TextView
+                    android:id="@+id/detailsSourceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Source"
+                    style="@style/newsDetailSrc">
+                </TextView>
+                <TextView
+                    android:id="@+id/detailsAuthorTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Author"
+                    style="@style/newsDetailAuthor">
+                </TextView>
+                <TextView
+                    android:id="@+id/detailsDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Date"
+                    style="@style/newsDetailDate">
+                </TextView>
+                <TextView
+                    android:id="@+id/detailsDescriptionTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Description"
+                    style="@style/newsDetailSrc">
+                </TextView>
+                <TextView
+                    android:id="@+id/detailsContentTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Content"
+                    style="@style/newsDetailAuthor">
+                </TextView>
+                <Button
+                    android:id="@+id/readButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Читать полностью"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@font/comfortaa"
+                    android:textStyle="bold"
+                    android:background="@drawable/news_details_button">
+
+                </Button>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

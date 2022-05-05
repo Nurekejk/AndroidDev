@@ -1,0 +1,4 @@
+rootProject.name='Astana Times'
+include ':app'
+include ':common'
+include ':news'

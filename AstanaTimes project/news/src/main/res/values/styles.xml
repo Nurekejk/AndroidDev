@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="articleTitle">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="articleDate">
+        <item name="android:fontFamily">@font/comfortaa_light</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="newsDetailToolbarTitle">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="newsDetailTitle">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="newsDetailSrc">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="newsDetailAuthor">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="newsDetailDate">
+        <item name="android:fontFamily">@font/comfortaa</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
